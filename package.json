@@ -1,0 +1,36 @@
+{
+  "name": "voting-dapp",
+  "version": "1.0.0",
+  "description": "Decentralized voting application with Hardhat and React",
+  "main": "index.js",
+  "scripts": {
+    "node": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "frontend": "cd frontend && npm run dev",
+    "e2e:cache": "./scripts/setup-synpress-cache.sh",
+    "e2e": "npm run e2e:cache && playwright test e2e/voting.spec.ts",
+    "e2e:ui": "playwright test --ui",
+    "e2e:report": "playwright show-report"
+  },
+  "keywords": [
+    "ethereum",
+    "hardhat",
+    "voting",
+    "dapp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@playwright/test": "^1.40.1",
+    "@synthetixio/synpress": "^4.0.5",
+    "@types/node": "^20.10.0",
+    "hardhat": "^2.19.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "wait-on": "^7.2.0"
+  }
+}

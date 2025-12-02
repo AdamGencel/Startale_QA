@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "module": "ES2020",
+    "noImplicitAny": false,
+    "strict": false
+  },
+  "include": ["./e2e/**/*"],
+  "exclude": []
+}
+

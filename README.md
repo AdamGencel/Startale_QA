@@ -28,17 +28,21 @@ cd frontend && npm install && cd ..
 
 | Command | Description |
 |---------|-------------|
-| `npm test` | Unit tests (17 tests, 100% coverage) |
+| `npm test` | Unit tests |
 | `npm run test:coverage` | Unit tests with coverage report |
 | `npm run e2e` | E2E tests (requires running app) |
 
-### Integration Test Coverage an results 
+### Unit Test Coverage an results 
+
+![unit results ](./images/unit-results.png)
 ![Test Coverage Report](./images/coverage.png)
 
-![Integration Test Results](./images/test-results.png)
+
 
 ### E2E Test Results
 ![E2E Test Results](./images/e2e-tests.png)
+
+![Integration Test Results](./images/test-results.png)
 
 ![Playwright report Interface](./images/voting-dapp-ui.png)
 

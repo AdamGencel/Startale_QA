@@ -4,6 +4,7 @@ Decentralized voting application with comprehensive test automation for Web3.
 
 **Stack:** Solidity • Hardhat • React • TypeScript • Playwright • Synpress
 
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -30,6 +31,16 @@ cd frontend && npm install && cd ..
 | `npm test` | Unit tests (17 tests, 100% coverage) |
 | `npm run test:coverage` | Unit tests with coverage report |
 | `npm run e2e` | E2E tests (requires running app) |
+
+### Integration Test Coverage an results 
+![Test Coverage Report](./images/coverage.png)
+
+![Integration Test Results](./images/test-results.png)
+
+### E2E Test Results
+![E2E Test Results](./images/e2e-tests.png)
+
+![Playwright report Interface](./images/voting-dapp-ui.png)
 
 
 ## 🤖 AI Tools Usage
